@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bubushopping/static/css/main.056c1156.css",
+    "main.js": "/bubushopping/static/js/main.df8237a0.js",
+    "index.html": "/bubushopping/index.html",
+    "main.056c1156.css.map": "/bubushopping/static/css/main.056c1156.css.map",
+    "main.df8237a0.js.map": "/bubushopping/static/js/main.df8237a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.056c1156.css",
+    "static/js/main.df8237a0.js"
+  ]
+}
