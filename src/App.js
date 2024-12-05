@@ -8,7 +8,7 @@ import { ThemeProvider } from './context/ThemeContext';
 function App() {
   return (
     <ThemeProvider>
-      <Router>
+      <Router basename="/bubushopping">
         <div className="app">
           <ThemeToggle />
           <Routes> {/* Switch를 Routes로 변경 */}
