@@ -1,0 +1,109 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --card-bg: #f9f9f9;
+    --header-bg: #f1f1f1;
+    --border-color: #dddddd;
+  }
+  
+  body.dark {
+    --bg-color: #121212;
+    --text-color: #ffffff;
+    --card-bg: #1e1e1e;
+    --header-bg: #2c2c2c;
+    --border-color: #333333;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  
+  .app {
+    min-height: 100vh;
+  }
+  
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .product-card {
+    background-color: var(--card-bg);
+    padding: 15px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 20px; /* 카드 하단 여백 추가 */
+  }
+  
+  .quantity {
+    margin-bottom: 10px; /* 수량 선택과 버튼 사이의 간격 */
+  }
+  
+  
+  
+  .cart-page {
+      padding: 50px; /* 패딩 증가 */
+      text-align: center; /* 텍스트 가운데 정렬 */
+      display: flex; /* Flexbox 사용 */
+      flex-direction: column; /* 세로 방향으로 정렬 */
+      align-items: center; /* 수평 중앙 정렬 */
+      justify-content: center; /* 수직 중앙 정렬 */
+      min-height: 100vh; /* 화면 높이를 최소화하여 중앙 정렬 */
+
+}
+  
+  
+button {
+  padding: 10px 15px; /* 패딩 증가 */
+  background-color: #0063c0;
+  border: none;
+  color: white;
+  border-radius: 5px; /* 둥근 모서리 */
+  cursor: pointer;
+  transition: background-color 0.3s; /* 호버 효과 */
+}
+  
+button:hover {
+  background-color: #1f008f; /* 호버 시 색상 변화 */
+}
+ .cart-link, .back-link {
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #2196F3;
+}
+
+.cart-link:hover, .back-link:hover {
+  text-decoration: underline;
+}
+.product-grid {
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px; /* 카드 간 간격 */
+    padding: 50px; /* 패딩 추가 */
+  }
+  }
+  
+  .product-card {
+    background-color: var(--card-bg);
+    padding: 20px; /* 패딩 증가 */
+    border-radius: 10px; /* 둥근 모서리 */
+    width: 300px; /* 카드 고정 너비 */
+    text-align: center;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+    transition: transform 0.2s; /* 확대 효과 */
+  }
+  
+  .product-card img {
+  width: 100%; 
+  height: auto; 
+  border-radius: 8px; 
+  }
